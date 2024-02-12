@@ -52,7 +52,7 @@ export default function Add({
     <div style={{ display: hidden ? 'none' : 'initial' }}>
       <span id={`${elementId}_add`}>
         <FontAwesomeIcon
-          icon={faPlusSquare} size={32}
+          icon={faPlusSquare} width="32px"
           onClick={() => setPopoverOpen(true)}
         />
       </span>
